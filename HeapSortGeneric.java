@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class HeapSort {
+public class HeapSortGeneric {
 
 	//O(nlogn) TIME, O(1) SPACE, NOT STABLE
 	public static <E extends Comparable<E>> E[] heapsort(E[] arr){
